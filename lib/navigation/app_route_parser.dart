@@ -15,6 +15,7 @@ class AppRouteParser extends RouteInformationParser<AppLink> {
     return link;
   }
 
+  /// Fixes
   @override
   RouteInformation restoreRouteInformation(AppLink appLink) {
     ///This function passes in an [AppLink] object. We ask [AppLink] to give us
